@@ -1,0 +1,15 @@
+{
+  "tabWidth": 2,
+  "printWidth": 100,
+  "endOfLine": "auto",
+  "singleQuote": true,
+  "trailingComma": "all",
+  "importOrder": [
+    "^(^react$|@react|react$)",
+    "<THIRD_PARTY_MODULES>",
+    "^(assets|components|context|hooks|lib|api|forms|layouts|reducers|pages|routes|reducers|helpers|config|constants)/?(.*)$",
+    "^[./]"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
+}
