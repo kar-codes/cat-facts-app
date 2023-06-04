@@ -8,18 +8,15 @@ import {
   IconButton,
   Menu,
   MenuItem,
-  Stack,
   Toolbar,
   Typography,
 } from '@mui/material';
-import { useTranslation } from 'react-i18next';
 import { BiMenu } from 'react-icons/bi';
 import { Link } from 'react-router-dom';
 
 import { PAGES } from '../../constants/navbar';
 
 const Header = () => {
-  const { i18n } = useTranslation();
   const [anchorElNav, setAnchorElNav] = useState<null | HTMLElement>(null);
 
   const handleOpenNavMenu = (event: React.MouseEvent<HTMLElement>) => {
@@ -28,10 +25,6 @@ const Header = () => {
 
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
-  };
-
-  const handleLanguage = (lang: string) => () => {
-    i18n.changeLanguage(lang);
   };
 
   return (

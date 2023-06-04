@@ -13,6 +13,6 @@ export const PAGES = [
   },
   {
     label: 'Cat Facts',
-    value: '/catfact',
+    value: '/catfacts',
   },
 ];
