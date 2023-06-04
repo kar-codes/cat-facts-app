@@ -15,6 +15,7 @@ import { BiMenu } from 'react-icons/bi';
 import { Link } from 'react-router-dom';
 
 import { PAGES } from '../../constants/navbar';
+import Logo from './Logo';
 
 const Header = () => {
   const [anchorElNav, setAnchorElNav] = useState<null | HTMLElement>(null);
@@ -28,7 +29,7 @@ const Header = () => {
   };
 
   return (
-    <AppBar position="static">
+    <AppBar position="static" color="transparent">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography
@@ -42,11 +43,11 @@ const Header = () => {
               fontFamily: 'monospace',
               fontWeight: 700,
               letterSpacing: '.3rem',
-              color: 'inherit',
+              color: 'Black',
               textDecoration: 'none',
             }}
           >
-            LOGO
+            <Logo />
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
@@ -54,7 +55,7 @@ const Header = () => {
               <Button
                 key={`navbar-item-${label}`}
                 onClick={handleCloseNavMenu}
-                sx={{ color: 'white' }}
+                sx={{ color: 'Black' }}
                 variant="text"
                 to={value}
                 component={Link}
