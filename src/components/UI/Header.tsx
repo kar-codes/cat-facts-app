@@ -15,7 +15,7 @@ import { BiMenu } from 'react-icons/bi';
 import { Link } from 'react-router-dom';
 
 import { PAGES } from '../../constants/navbar';
-import Logo from './Logo';
+import CatLogo from './CatLogo';
 
 const Header = () => {
   const [anchorElNav, setAnchorElNav] = useState<null | HTMLElement>(null);
@@ -43,11 +43,11 @@ const Header = () => {
               fontFamily: 'monospace',
               fontWeight: 700,
               letterSpacing: '.3rem',
-              color: 'Black',
+              color: '#262626',
               textDecoration: 'none',
             }}
           >
-            <Logo />
+            <CatLogo />
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
@@ -55,7 +55,7 @@ const Header = () => {
               <Button
                 key={`navbar-item-${label}`}
                 onClick={handleCloseNavMenu}
-                sx={{ color: 'Black' }}
+                sx={{ color: '#262626' }}
                 variant="text"
                 to={value}
                 component={Link}

@@ -8,3 +8,8 @@ html, body, #root {
   display: flex;
   flex-direction: column;
 }
+
+
+.githubLink {
+  text-decoration: none;
+}

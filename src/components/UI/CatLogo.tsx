@@ -1,4 +1,4 @@
-export const catLogo = () => {
+const CatLogo = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -6,11 +6,11 @@ export const catLogo = () => {
       width="44"
       height="44"
       viewBox="0 0 24 24"
-      stroke-width="1.5"
-      stroke="#2c3e50"
+      strokeWidth="1.5"
+      stroke="#262626"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     >
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M20 3v10a8 8 0 1 1 -16 0v-10l3.432 3.432a7.963 7.963 0 0 1 4.568 -1.432c1.769 0 3.403 .574 4.728 1.546l3.272 -3.546z" />
@@ -23,4 +23,4 @@ export const catLogo = () => {
   );
 };
 
-export default catLogo;
+export default CatLogo;

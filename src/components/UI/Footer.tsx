@@ -10,7 +10,10 @@ const Footer = () => (
         textAlign: 'center',
       }}
     >
-      All right reserved 2023
+      Open-source project by kar-codes on{' '}
+      <a className="githubLink" href="https://github.com/kar-codes/cat-facts-app" target="_blank">
+        github
+      </a>
     </Typography>
   </Box>
 );

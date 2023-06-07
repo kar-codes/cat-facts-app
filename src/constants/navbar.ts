@@ -1,7 +1,7 @@
 export const PAGES = [
   {
-    label: 'Home',
-    value: '/home',
+    label: 'Cat Facts',
+    value: '/catfacts',
   },
   {
     label: 'About',
@@ -10,9 +10,5 @@ export const PAGES = [
   {
     label: 'Contact',
     value: '/contact',
-  },
-  {
-    label: 'Cat Facts',
-    value: '/catfacts',
   },
 ];
