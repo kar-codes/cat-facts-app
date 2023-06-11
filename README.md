@@ -2,11 +2,15 @@
 This is a React application that uses Vite as the build tool, Redux Toolkit for state management, TypeScript for static typing, Redux Thunk for handling asynchronous actions, and Material-UI for UI components.
 
 Prerequisites
+
 Before getting started, ensure that you have the following software installed on your machine:
 
 Node.js (v14 or higher)
 npm or Yarn (package managers)
+
+
 Getting Started
+
 To use this template and set up the React app on your local machine, follow these steps:
 
 Clone this repository:
