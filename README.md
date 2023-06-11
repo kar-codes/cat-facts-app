@@ -50,4 +50,4 @@ Resources
 [Redux Toolkit]: https://redux-toolkit.js.org/ |
 [Typescript]: https://www.typescriptlang.org/ |
 [Redux Thunk]: https://github.com/reduxjs/redux-thunk |
-[Material UI]: https://mui.com/core/
+[Material-UI]: https://mui.com/core/
