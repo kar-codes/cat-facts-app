@@ -40,12 +40,8 @@ Clicking the "New Fact" button fetches and displays a new random cat fact and ra
 
 
 Resources
-[Vite]: https://vitejs.dev/
-
-[Redux Toolkit]: https://redux-toolkit.js.org/
-
-[Typescript]: https://www.typescriptlang.org/
-
-[Redux Thunk]: https://github.com/reduxjs/redux-thunk
-
+[Vite]: https://vitejs.dev/ |
+[Redux Toolkit]: https://redux-toolkit.js.org/ |
+[Typescript]: https://www.typescriptlang.org/ |
+[Redux Thunk]: https://github.com/reduxjs/redux-thunk |
 [Material UI]: https://mui.com/core/
