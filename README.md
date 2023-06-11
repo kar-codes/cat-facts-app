@@ -39,6 +39,7 @@ npm run dev
 
 
 Features
+
 Display a random cat fact and random cat image on the homepage.
 Clicking the "New Fact" button fetches and displays a new random cat fact and random cat image.
 
